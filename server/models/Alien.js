@@ -2,7 +2,7 @@ import mongoose from "mongoose";
 const Schema = mongoose.Schema;
 const ObjectId = Schema.Types.ObjectId
 
-const Species = new Schema(
+const Alien = new Schema(
   {
     planet: { type: ObjectId, ref: 'Planet', required: true },
     name: { type: String, required: true },
@@ -12,4 +12,4 @@ const Species = new Schema(
   { timestamps: true, toJSON: { virtuals: true } }
 );
 
-export default Species;
+export default Alien;

@@ -4,7 +4,7 @@ const ObjectId = Schema.Types.ObjectId
 
 const Star = new Schema(
   {
-    galaxy: { type: ObjectId, ref: 'Galaxy', required: true },
+    cluster: { type: ObjectId, ref: 'Cluster', required: true },
     name: { type: String, required: true },
     size: { type: String, required: true },
     type: { type: String, required: true }

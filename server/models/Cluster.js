@@ -1,7 +1,7 @@
 import mongoose from "mongoose";
 const Schema = mongoose.Schema;
 
-const Galaxy = new Schema(
+const Cluster = new Schema(
   {
     name: { type: String, required: true },
     type: { type: String, required: true }
@@ -9,4 +9,4 @@ const Galaxy = new Schema(
   { timestamps: true, toJSON: { virtuals: true } }
 );
 
-export default Galaxy;
+export default Cluster;
