@@ -7,7 +7,8 @@ const Star = new Schema(
     cluster: { type: ObjectId, ref: 'Cluster', required: true },
     name: { type: String, required: true },
     size: { type: String, required: true },
-    type: { type: String, required: true }
+    type: { type: String, required: true },
+    imgUrl: { type: String }
   },
   { timestamps: true, toJSON: { virtuals: true } }
 );

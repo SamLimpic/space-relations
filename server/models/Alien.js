@@ -7,7 +7,8 @@ const Alien = new Schema(
     planet: { type: ObjectId, ref: 'Planet', required: true },
     name: { type: String, required: true },
     population: { type: Number, required: true },
-    type: { type: String, required: true }
+    type: { type: String, required: true },
+    imgUrl: { type: String }
   },
   { timestamps: true, toJSON: { virtuals: true } }
 );
