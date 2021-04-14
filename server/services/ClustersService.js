@@ -33,4 +33,4 @@ class ClustersService {
 
 }
 
-export const cohortsService = new ClustersService();
+export const clustersService = new ClustersService();

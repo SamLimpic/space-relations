@@ -33,4 +33,4 @@ class PlanetsService {
 
 }
 
-export const cohortsService = new PlanetsService();
+export const planetsService = new PlanetsService();

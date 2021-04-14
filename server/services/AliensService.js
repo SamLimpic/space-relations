@@ -33,4 +33,4 @@ class AliensService {
 
 }
 
-export const cohortsService = new AliensService();
+export const aliensService = new AliensService();

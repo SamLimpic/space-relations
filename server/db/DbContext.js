@@ -7,6 +7,7 @@ import mongoose from "mongoose";
 
 class DbContext {
   Clusters = mongoose.model("Cluster", ClusterSchema);
+
   Stars = mongoose.model("Star", StarSchema);
 
   Planets = mongoose.model("Planet", PlanetSchema);

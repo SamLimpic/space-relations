@@ -33,4 +33,4 @@ class StarsService {
 
 }
 
-export const cohortsService = new StarsService();
+export const starsService = new StarsService();

@@ -33,4 +33,4 @@ class MoonsService {
 
 }
 
-export const cohortsService = new MoonsService();
+export const moonsService = new MoonsService();
